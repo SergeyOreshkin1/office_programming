@@ -1,0 +1,5 @@
+4) выдача справок по поиску
+
+
+if (!empty($_FILES['img_upload']['tmp_name'])) если не пустая перемнная файла загруженного по http
+$img = addslashes(file_get_contents($_FILES['img_upload']['tmp_name']) addslashes возвращает экранированную строку, file_get_contents  читает содержимое файла в строку

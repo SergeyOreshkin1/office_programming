@@ -1,0 +1,50 @@
+body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+p {
+	text-align: center;
+	font-family: arial;
+	font-size: 18px;
+	font-weight: 900;
+	color: blue;
+}
+
+button {
+	margin-top:20px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:20px;
+    background: navy; 
+    color: yellow; 
+    font-size: 12pt; 
+	width: 200px;
+    height: 40px;
+}
+
+table {
+	padding: 3px;
+}
+
+td {
+	text-align: center;
+	height: 75px;
+	width: 130px;
+	border-radius: 5px;
+}
+
+tr {
+	background-color: lightgreen;
+	font-family: arial;
+	font-size: 16px;
+}
+
+tr:nth-child(2n){
+	background-color: #FFFACD;
+}
+
+tbody tr:nth-child(1) {
+	background-color:lightgreen;
+}

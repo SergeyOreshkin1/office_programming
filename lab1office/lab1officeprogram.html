@@ -1,0 +1,19 @@
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Ползунок</title>
+  <script>
+   function sizePhoto() {
+    razmer = document.getElementById("razmer").value;
+    img = document.getElementById("photo");
+    img.width = 40*razmer;
+	img.height = 40*razmer;
+   }
+  </script>
+ </head>
+ <body>
+  <p>Размер рисунка: <input type="range" min="1" max="20" id="razmer" 
+    oninput="sizePhoto()" </p>
+  <p><img src="saransk2018.jpg" id="photo" width=400; height=400;></p>
+ </body>
+</html>
